@@ -1,0 +1,14 @@
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Carpetas de compilación
+build/
+dist/
+dist_installer/
+
+# Creedenciales de acceso y de seguridad
+venv/
+env/
+.env
