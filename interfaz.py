@@ -31,12 +31,12 @@ def construir_interfaz(page: ft.Page):
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
         )
     )
-    page.title = "Generador de Reportes de WhatsApp"
+    page.title = "WhatsReport"
 
     ruta_archivo = {"txt": None}
 
     titulo = ft.Text(
-        "Generador de Reportes de WhatsApp",
+        "WhatsReport",
         size=22,
         weight=ft.FontWeight.BOLD
     )
@@ -165,7 +165,7 @@ def construir_interfaz(page: ft.Page):
 
     dialogo_acerca = ft.AlertDialog(
         title=ft.Text(
-            "Generador de Reportes de WhatsApp",
+            "WhatsReport",
             weight=ft.FontWeight.BOLD,
             text_align=ft.TextAlign.CENTER,
             size=19,
@@ -194,7 +194,7 @@ def construir_interfaz(page: ft.Page):
                 ft.Row(
                     [
                         ft.Text(
-                            "© 2026 Generador de Reportes. Todos los derechos reservados.",
+                            "© 2026 WhatsReport. Todos los derechos reservados.",
                             size=11,
                             color=ft.Colors.GREY_600,
                             italic=True,

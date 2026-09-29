@@ -1,8 +1,8 @@
-; Script de Inno Setup para Generador de Reportes de WhatsApp
-#define MyAppName "Generador de Reportes de WhatsApp"
+; Script de Inno Setup para WhatsReport
+#define MyAppName "WhatsReport"
 #define MyAppVersion "1.4.5"
 #define MyAppPublisher "Alexander Jesus Laura Julca - TI"
-#define MyAppExeName "Generador de Reportes.exe"
+#define MyAppExeName "WhatsReport.exe"
 
 [Setup]
 ; Identificador de la aplicación
@@ -14,7 +14,7 @@ DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
 OutputDir=dist_installer
-OutputBaseFilename=Instalador_Generador_Reportes_v1.4
+OutputBaseFilename=Instalador_WhatsReport_v1.4.5
 SetupIconFile=icons\favicon.ico
 Compression=lzma
 SolidCompression=yes
